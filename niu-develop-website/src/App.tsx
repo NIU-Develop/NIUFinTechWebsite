@@ -1,9 +1,15 @@
 import Header from './components/Header'
 import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Leadership from './pages/Leadership'
+import Contact from './pages/Contact'
+import Login from './pages/Login'
+
 
 function App() {
   return (
-    <Navbar>
+    <Header>
       <div className="container">
         <Routes>
           <Route path='/' element={<Home />} />
@@ -13,7 +19,7 @@ function App() {
           <Route path='/login' element={<Login />} />
         </Routes>
       </div>
-    </Navbar>
+    </Header>
   )
 }
 

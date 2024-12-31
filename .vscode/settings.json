@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "__node_handle": "cpp",
+        "ios": "cpp",
+        "iostream": "cpp",
+        "stdexcept": "cpp",
+        "string": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp"
+    }
+}
